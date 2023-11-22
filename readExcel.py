@@ -42,5 +42,8 @@ def readExcel(file_path):
         if current_group_data:
             current_phase_data['Groups'].append(current_group_data)
         result.append(current_phase_data)
-    return result
-    # print(result)
+    # return result
+    print(result)
+
+
+readExcel("template.xlsx")

@@ -2,6 +2,11 @@ import pandas as pd
 
 file = "template.xlsx"
 
-df = pd.read_excel(file, "BOM")
+xl_file = pd.ExcelFile(file)
 
-print (df)
+SheetNames = xl_file.sheet_names
+
+for sheet in SheetNames:
+    df = pd.read_excel(file, sheet)
+    print (df)
+
