@@ -1,0 +1,82 @@
+{
+
+    "opportunity_id": "08625",
+    "quotation_id": "",
+    "price_list": "1",
+    "user_id": "2",
+    "phase_name": [
+        {
+            "phase": "BOM DC",
+            "phase_start_date": "2023-06-20",
+            "phase_tenure_month": "20",
+            "phase_total_recurring": 127318,
+            "phase_total_otp": 76390.8,
+            "group_name": [
+                {
+                    "quotation_group_name": "Application Server",
+                    "group_otp_price": 43030.8,
+                    "group_recurring_price": 71718,
+                    "group_quantity": 3,
+                    "products": [
+                        {
+                            "product_sku": "SOMYEE0000000000",
+                            "product_quantity": "1"
+                        },
+                        {
+                            "product_sku": "SOMQEE0000000000",
+                            "product_quantity": 1
+                        },
+                        {
+                            "product_sku": "SOWSDE0000000000",
+                            "product_quantity": 1
+                        }
+                    ]
+                },
+                {
+                    "quotation_group_name": "Security Solution",
+                    "group_otp_price": 24720,
+                    "group_recurring_price": 41200,
+                    "group_quantity": 2,
+                    "products": [
+                        {
+                            "product_sku": "ESAVAHSM00000000",
+                            "product_quantity": 1
+                        },
+                        {
+                            "product_sku": "ICFWVFEFCK000000",
+                            "product_quantity": "2"
+                        }
+                    ]
+                },
+                {
+                    "quotation_group_name": "Managed Services",
+                    "group_otp_price": 8640,
+                    "group_recurring_price": 14400,
+                    "group_quantity": 5,
+                    "products": [
+                        {
+                            "product_sku": "MSOYWI0000000000",
+                            "product_quantity": 1
+                        },
+                        {
+                            "product_sku": "MSDMMY0000000000",
+                            "product_quantity": 1
+                        },
+                        {
+                            "product_sku": "MSTN000000000000",
+                            "product_quantity": 1
+                        },
+                        {
+                            "product_sku": "MSEGFWVN00000000",
+                            "product_quantity": 2
+                        },
+                        {
+                            "product_sku": "SOCMEO0000000000",
+                            "product_quantity": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}            
