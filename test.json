@@ -1,0 +1,1741 @@
+[
+    {
+        "0-7 months BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "7-18 months BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "18-27 months BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "3rd Year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "4th year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "5th Year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "6th Year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "7th year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "8th Year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "9th Year BOM DC": [
+            {
+                "Software Licenses": []
+            },
+            {
+                "Storage and Backup Services": []
+            },
+            {
+                "Network and Connectivity Services": []
+            },
+            {
+                "Security Solution": []
+            },
+            {
+                "Managed Services": []
+            }
+        ]
+    },
+    {
+        "10 Year BOM DC": [
+            {
+                "Software Licenses": [
+                    {
+                        "product_name": "Windows Standard Edition",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Linux : SUSE",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-STD",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-Enterprise",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 15 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 20 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 25 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 30 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 40 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 50 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 100 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Backup Storage - Per GB 0.3 IOPS",
+                        "product_sku": "Backup Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Archival Space",
+                        "product_sku": "Archival Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Speed Based Internet Bandwidth",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Cross Connect and Port Termination",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Anti-Virus",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Alpha SSL Wild Card",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Palo alto - Physical UTM- 1 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "VTMScan - 60Scan",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "SECEON - SIEM-Internal Security",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "NON CERT IN- VAPT Audit",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DDOS Mitigation - 1Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Security orchestration, automation and response",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Other- VWAF - 2Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual Internal Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual External Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Hardware Security Module - Shared",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DLP VM - End Point",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "iRaje- Priviledge Identity Management-OEM",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Identity Access Management",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Endpoint Detection & Response Service",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "McAfee - Database activity monitoring",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "OEM MFA Fortinet",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "One Time Infrastructure Setup",
+                        "product_sku": "Services",
+                        "product_qty": nan
+                    },
+                    {
+                        "product_name": "Windows Operating System Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "SUSE - OSMng- Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL Database Managed Services (Up to 100 GB)",
+                        "product_sku": "Services",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Storage Management Per TB",
+                        "product_sku": "Service",
+                        "product_qty": 25.0
+                    },
+                    {
+                        "product_name": "Backup Management - per Instance",
+                        "product_sku": "Service",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Load Balancer Management",
+                        "product_sku": "Service",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "FireWall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Web Application Firewall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "eMagic Monitoring Basic",
+                        "product_sku": "Services",
+                        "product_qty": 9.0
+                    }
+                ]
+            },
+            {
+                "Storage and Backup Services": [
+                    {
+                        "product_name": "Windows Standard Edition",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Linux : SUSE",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-STD",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-Enterprise",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 15 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 20 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 25 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 30 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 40 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 50 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 100 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Backup Storage - Per GB 0.3 IOPS",
+                        "product_sku": "Backup Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Archival Space",
+                        "product_sku": "Archival Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Speed Based Internet Bandwidth",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Cross Connect and Port Termination",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Anti-Virus",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Alpha SSL Wild Card",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Palo alto - Physical UTM- 1 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "VTMScan - 60Scan",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "SECEON - SIEM-Internal Security",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "NON CERT IN- VAPT Audit",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DDOS Mitigation - 1Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Security orchestration, automation and response",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Other- VWAF - 2Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual Internal Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual External Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Hardware Security Module - Shared",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DLP VM - End Point",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "iRaje- Priviledge Identity Management-OEM",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Identity Access Management",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Endpoint Detection & Response Service",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "McAfee - Database activity monitoring",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "OEM MFA Fortinet",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "One Time Infrastructure Setup",
+                        "product_sku": "Services",
+                        "product_qty": nan
+                    },
+                    {
+                        "product_name": "Windows Operating System Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "SUSE - OSMng- Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL Database Managed Services (Up to 100 GB)",
+                        "product_sku": "Services",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Storage Management Per TB",
+                        "product_sku": "Service",
+                        "product_qty": 25.0
+                    },
+                    {
+                        "product_name": "Backup Management - per Instance",
+                        "product_sku": "Service",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Load Balancer Management",
+                        "product_sku": "Service",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "FireWall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Web Application Firewall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "eMagic Monitoring Basic",
+                        "product_sku": "Services",
+                        "product_qty": 9.0
+                    }
+                ]
+            },
+            {
+                "Network and Connectivity Services": [
+                    {
+                        "product_name": "Windows Standard Edition",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Linux : SUSE",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-STD",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-Enterprise",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 15 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 20 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 25 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 30 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 40 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 50 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 100 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Backup Storage - Per GB 0.3 IOPS",
+                        "product_sku": "Backup Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Archival Space",
+                        "product_sku": "Archival Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Speed Based Internet Bandwidth",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Cross Connect and Port Termination",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Anti-Virus",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Alpha SSL Wild Card",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Palo alto - Physical UTM- 1 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "VTMScan - 60Scan",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "SECEON - SIEM-Internal Security",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "NON CERT IN- VAPT Audit",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DDOS Mitigation - 1Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Security orchestration, automation and response",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Other- VWAF - 2Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual Internal Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual External Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Hardware Security Module - Shared",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DLP VM - End Point",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "iRaje- Priviledge Identity Management-OEM",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Identity Access Management",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Endpoint Detection & Response Service",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "McAfee - Database activity monitoring",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "OEM MFA Fortinet",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "One Time Infrastructure Setup",
+                        "product_sku": "Services",
+                        "product_qty": nan
+                    },
+                    {
+                        "product_name": "Windows Operating System Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "SUSE - OSMng- Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL Database Managed Services (Up to 100 GB)",
+                        "product_sku": "Services",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Storage Management Per TB",
+                        "product_sku": "Service",
+                        "product_qty": 25.0
+                    },
+                    {
+                        "product_name": "Backup Management - per Instance",
+                        "product_sku": "Service",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Load Balancer Management",
+                        "product_sku": "Service",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "FireWall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Web Application Firewall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "eMagic Monitoring Basic",
+                        "product_sku": "Services",
+                        "product_qty": 9.0
+                    }
+                ]
+            },
+            {
+                "Security Solution": [
+                    {
+                        "product_name": "Windows Standard Edition",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Linux : SUSE",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-STD",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-Enterprise",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 15 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 20 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 25 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 30 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 40 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 50 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 100 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Backup Storage - Per GB 0.3 IOPS",
+                        "product_sku": "Backup Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Archival Space",
+                        "product_sku": "Archival Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Speed Based Internet Bandwidth",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Cross Connect and Port Termination",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Anti-Virus",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Alpha SSL Wild Card",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Palo alto - Physical UTM- 1 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "VTMScan - 60Scan",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "SECEON - SIEM-Internal Security",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "NON CERT IN- VAPT Audit",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DDOS Mitigation - 1Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Security orchestration, automation and response",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Other- VWAF - 2Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual Internal Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual External Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Hardware Security Module - Shared",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DLP VM - End Point",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "iRaje- Priviledge Identity Management-OEM",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Identity Access Management",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Endpoint Detection & Response Service",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "McAfee - Database activity monitoring",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "OEM MFA Fortinet",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "One Time Infrastructure Setup",
+                        "product_sku": "Services",
+                        "product_qty": nan
+                    },
+                    {
+                        "product_name": "Windows Operating System Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "SUSE - OSMng- Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL Database Managed Services (Up to 100 GB)",
+                        "product_sku": "Services",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Storage Management Per TB",
+                        "product_sku": "Service",
+                        "product_qty": 25.0
+                    },
+                    {
+                        "product_name": "Backup Management - per Instance",
+                        "product_sku": "Service",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Load Balancer Management",
+                        "product_sku": "Service",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "FireWall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Web Application Firewall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "eMagic Monitoring Basic",
+                        "product_sku": "Services",
+                        "product_qty": 9.0
+                    }
+                ]
+            },
+            {
+                "Managed Services": [
+                    {
+                        "product_name": "Windows Standard Edition",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Linux : SUSE",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-STD",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL-Enterprise",
+                        "product_sku": "Database",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Object Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 0.3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 10 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 1 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 3 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 5 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "File Storage 8 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 15 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 20 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 25 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 30 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 40 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 50 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Block Storage 100 IOPS per GB",
+                        "product_sku": "Additional Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Backup Storage - Per GB 0.3 IOPS",
+                        "product_sku": "Backup Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Archival Space",
+                        "product_sku": "Archival Storage",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Speed Based Internet Bandwidth",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Cross Connect and Port Termination",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Anti-Virus",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "Alpha SSL Wild Card",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Palo alto - Physical UTM- 1 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "VTMScan - 60Scan",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "SECEON - SIEM-Internal Security",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "NON CERT IN- VAPT Audit",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DDOS Mitigation - 1Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Security orchestration, automation and response",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Other- VWAF - 2Gbps",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual Internal Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Fortinet - Virtual External Firewall - 2 Gpbs",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Hardware Security Module - Shared",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "DLP VM - End Point",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "iRaje- Priviledge Identity Management-OEM",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Identity Access Management",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Endpoint Detection & Response Service",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "McAfee - Database activity monitoring",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "OEM MFA Fortinet",
+                        "product_sku": "Services",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "One Time Infrastructure Setup",
+                        "product_sku": "Services",
+                        "product_qty": nan
+                    },
+                    {
+                        "product_name": "Windows Operating System Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "SUSE - OSMng- Managed Services",
+                        "product_sku": "Services",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "MSSQL Database Managed Services (Up to 100 GB)",
+                        "product_sku": "Services",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Storage Management Per TB",
+                        "product_sku": "Service",
+                        "product_qty": 25.0
+                    },
+                    {
+                        "product_name": "Backup Management - per Instance",
+                        "product_sku": "Service",
+                        "product_qty": 4.0
+                    },
+                    {
+                        "product_name": "Load Balancer Management",
+                        "product_sku": "Service",
+                        "product_qty": 2.0
+                    },
+                    {
+                        "product_name": "FireWall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "Web Application Firewall Management",
+                        "product_sku": "Service",
+                        "product_qty": 0.0
+                    },
+                    {
+                        "product_name": "eMagic Monitoring Basic",
+                        "product_sku": "Services",
+                        "product_qty": 9.0
+                    }
+                ]
+            }
+        ]
+    }
+]
