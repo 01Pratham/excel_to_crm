@@ -63,32 +63,32 @@ for sheet in SheetNames:
     df = pd.read_excel(file, sheet)
     for index , row in df.iterrows():
         for phase in unique_phase_keys:
-            phase_id = phase.replace(" "+sheet, '')
             for i,val in enumerate(unique_list):
-                if not pd.isna(row["Product Name"]):
-                    for group in unique_group_keys:
-
-                        try:
-                            for j,gVal in enumerate(unique_list[i][key]):
-                                # print(phase_id)
-
-                                try:
-                                    unique_list[i][phase_id + " " + sheet][j][group].append({
-                                        "product_name" : row["Product Name"],
-                                        "product_sku" : row["SKU"],
-                                        "product_qty" : row[phase_id]
-                                    })
-                                    # newP.append({phase_id:row[phase_id]})
-                                except KeyError:
-                                    continue
-                        except KeyError:
-                            continue
-
+                for group in unique_group_keys:
+                    if row["SKU"] == group and pd.isna(row["Product Name"]):
+                        continue
+                    try:
+                        for j,gVal in enumerate(unique_list[i][phase]):
+                            phase_id = phase.replace(" "+sheet, '')
+                            try:
+                                unique_list[i][phase][j][group].append({
+                                    "product_name" : row["Product Name"],
+                                    "product_sku" : row["SKU"],
+                                    "product_qty" : row[phase_id]
+                                })
+                            except KeyError:
+                                continue
+                    except KeyError:
+                        continue
+                   
                 # if not pd.isna(row["Product Name"]):
 
 
 
-print(unique_list)
 
+# print(unique_list)
 
+a = open("test.txt","w+")
+a.write(str(unique_list))
 
+a.close()
