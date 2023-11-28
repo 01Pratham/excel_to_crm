@@ -13,7 +13,7 @@ SheetNames = xl_file.sheet_names
 result = []
 def getFromCommanSheets():
     for sheet in SheetNames:
-        if sheet == "VM Working" or sheet == "product_mater" :
+        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
             continue 
         df = pd.read_excel(file, sheet)
         for index , row in df.iterrows():
@@ -38,7 +38,7 @@ def getFromCommanSheets():
     unique_group_keys = []
 
     for sheet in SheetNames:
-        if sheet == "VM Working" or sheet == "product_mater" :
+        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
             continue 
         df = pd.read_excel(file, sheet)
         for index , row in df.iterrows():
@@ -63,10 +63,10 @@ def getFromCommanSheets():
     newP = []
 
     for sheet in SheetNames:
-        if sheet == "VM Working" or sheet == "product_mater" :
+        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
             continue 
         df = pd.read_excel(file, sheet)
-        for index , row in df.iterrows():
+        for index , row in df.iterrows():   
             for i,val in enumerate(unique_list):
                 phase = list(unique_list[i].keys())[0]
                 for g, group in enumerate(unique_list[i][phase]):
@@ -95,27 +95,38 @@ def getFromVmWorkingSheeet():
     result = []
     phases = []
     test = []
+    import openpyxl as xl
+
     wb = xl.load_workbook(filename=file)
+
     for sheetName in wb.sheetnames:
-        if sheetName == "VM Working" :
+        if sheetName == "VM Working":
             sheetData = wb[sheetName]
-            for row in sheetData.iter_rows():
+            for row in sheetData.iter_cols():
                 for cell in row:
                     for merged_cell_range in sheetData.merged_cells.ranges:
                         if cell.coordinate in merged_cell_range:
-                            if cell.value == None:
+                            if cell.value is None:
                                 continue
                             if cell.value == "VM Details":
                                 continue
-                            result.append({cell.value : []})
-                            phases.append(cell.value)
+
+                            # Check if the cell has a fill and get the RGB color
+                            if cell.fill is not None and cell.fill.start_color is not None:
+                                background_color = cell.fill.start_color
+                                print(f"Background color of {cell.coordinate}: {background_color}")
+                                # print(background_color) 
+                            else:
+                                print(f"No background color for {cell.coordinate}")
+
+                            # Convert the value to string before appending
+                            result.append({str(cell.value): []})
+                            phases.append(str(cell.value))
                         else:
-                            # if cell.value == None:
-                            #     continue
-                            # test.append(cell.value)
                             continue
-                    test.append(cell.valu)
+
+
                     
 
-    print(test)
+    # print(test)
 getFromVmWorkingSheeet()
