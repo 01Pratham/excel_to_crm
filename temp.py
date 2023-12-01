@@ -95,36 +95,20 @@ def getFromVmWorkingSheeet():
     result = []
     phases = []
     test = []
-    import openpyxl as xl
+    group = []
 
-    wb = xl.load_workbook(filename=file)
+    for sheet in SheetNames:
+        if sheet == "VM Working":
+            df = pd.read_excel(file, sheet)
+            for index , row in df.iterrows():
+                for key , val in row.to_dict().items():
+                    if key == "VM Name ":
+                        group.append(val)
+                    
 
-    for sheetName in wb.sheetnames:
-        if sheetName == "VM Working":
-            sheetData = wb[sheetName]
-            for row in sheetData.iter_cols():
-                for cell in row:
-                    for merged_cell_range in sheetData.merged_cells.ranges:
-                        if cell.coordinate in merged_cell_range:
-                            if cell.value is None:
-                                continue
-                            if cell.value == "VM Details":
-                                continue
+                # for key , val in enumerate(row):
 
-                            # Check if the cell has a fill and get the RGB color
-                            if cell.fill is not None and cell.fill.start_color is not None:
-                                background_color = cell.fill.start_color
-                                print(f"Background color of {cell.coordinate}: {background_color}")
-                                # print(background_color) 
-                            else:
-                                print(f"No background color for {cell.coordinate}")
-
-                            # Convert the value to string before appending
-                            result.append({str(cell.value): []})
-                            phases.append(str(cell.value))
-                        else:
-                            continue
-
+    
 
                     
 
