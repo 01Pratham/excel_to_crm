@@ -10,107 +10,93 @@ file = "template.xlsx"
 xl_file = pd.ExcelFile(file)
 
 SheetNames = xl_file.sheet_names
-result = []
+result ={}
 def getFromCommanSheets():
-    for sheet in SheetNames:
-        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
-            continue 
-        df = pd.read_excel(file, sheet)
-        for index , row in df.iterrows():
-            # print(row)
-
-            keyList = list(row.keys())
-            for key in keyList:
-                if  key == "SKU" or  key == "Product Name" or key == "group":
-                    continue
-                result.append({key+" "+sheet : []})
-                
-    unique_list = []
-    unique_phase_keys = []
-    for d in result:
-        if d not in unique_list:
-            unique_list.append(d)
-
-    for dict in unique_list:
-        unique_phase_keys.append(list(dict.keys())[0])
-        
-    # print(unique_phase_keys)
-    unique_group_keys = []
-
-    for sheet in SheetNames:
-        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
-            continue 
-        df = pd.read_excel(file, sheet)
-        for index , row in df.iterrows():
-            for key in unique_phase_keys:
-                for i,val in enumerate(unique_list):
-                    if pd.isna(row["Product Name"]):
-                        try:
-                            keyProduct = {row["SKU"] : []}
-                            unique_list[i][key].append(keyProduct)
-                        except KeyError:
-                            continue
-                        # print(unique_list[i][key])
-                    try:
-                        for dict in unique_list[i][key]:
-                            unique_group_keys.append(list(dict.keys())[0])
-                    except KeyError:
-                            continue
-
-
-    unique_group_keys = list(set(unique_group_keys))
-
-    newP = []
-
-    for sheet in SheetNames:
-        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
-            continue 
-        df = pd.read_excel(file, sheet)
-        for index , row in df.iterrows():   
-            for i,val in enumerate(unique_list):
-                phase = list(unique_list[i].keys())[0]
-                for g, group in enumerate(unique_list[i][phase]):
-                    if pd.isna(row["Product Name"]):
-                        continue
-                    try:
-                        group = list(unique_list[i][phase][g].keys())[0]
-                        phase_id = phase.replace(" "+sheet, '')
-                        try:
-                            if group == row["group"]:
-                                unique_list[i][phase][g][group].append({
-                                    "product_name" : row["Product Name"],
-                                    "product_sku" : row["SKU"],
-                                    "product_qty" : row[phase_id]
-                                })
-                        except KeyError:
-                            continue
-                    except KeyError:
-                        continue
-    return unique_list
-
-
-                
-
-def getFromVmWorkingSheeet():
-    result = []
     phases = []
-    test = []
+    for sheet in SheetNames:
+        if sheet == "VM Working" or sheet == "product_mater":
+            continue 
+        if sheet == "PhasesDetails" : 
+            dfPhases = pd.read_excel(file, sheet)
+            for index , row in dfPhases.iterrows():
+                phases.append(row['Phases'])
+                for sheet2 in SheetNames:
+                    if sheet2 == "PhasesDetails" or sheet2 == "VM Working" or sheet2 == "product_mater":
+                        continue
+                    result[row['Phases'] +" "+ sheet2 ] = {}
+        else:
+            df = pd.read_excel(file, sheet)
+            for index , row in df.iterrows():
+                for key , val in row.to_dict().items():
+                    if key == "group":
+                        for phase in phases:
+                            if pd.isna(row["group"]):
+                                continue
+                            result[phase +" "+sheet][row["group"]] = {}
+                    
+    for sheet in SheetNames:
+        if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
+            continue 
+        df = pd.read_excel(file, sheet)
+        for index , row in df.iterrows():
+            for phase in phases:
+                if not pd.isna(row["Product Name"]):
+                    result[phase +" "+sheet][row["group"]][row["Product Name"]] = {
+                        "product_qty" : row[phase],
+                        "product_sku" : "CCVRAT0000000000"
+                    }
+                    
+    return result
+def getFromVmWorkingSheeet():
+    result = {}
+    phases = []
     group = []
+    let= []
 
     for sheet in SheetNames:
+        if sheet not in ["VM Working", "product_mater", "PhasesDetails"]:
+            let.append(sheet)
+
+        if sheet == "PhasesDetails":
+            dfPhases = pd.read_excel(file, sheet)
+            for index , row in dfPhases.iterrows():
+                phases.append(row['Phases'])
+                result[row['Phases']] = {}
         if sheet == "VM Working":
             df = pd.read_excel(file, sheet)
             for index , row in df.iterrows():
                 for key , val in row.to_dict().items():
-                    if key == "VM Name ":
-                        group.append(val)
-                    
-
-                # for key , val in enumerate(row):
-
-    
-
-                    
-
-    # print(test)
+                    for phase in phases:
+                        if "VM" in key and "Name" in key:
+                            group.append(val)
+                            # print (val)
+                            result[phase ][row["VM Name"]] = [
+                                {
+                                    "product_qty" : row["Core " + phase],
+                                    "product_sku" : "CCVCVS0000000000"
+                                },
+                                {
+                                    "product_qty" : row["RAM " + phase],
+                                    "product_sku" : "CCVRAT0000000000"
+                                },
+                                {
+                                    "product_qty" : row["DISK " + phase],
+                                    "product_sku" : "STBT1P0000000000"
+                                },
+                                {
+                                    "product_qty" : row["OS"],
+                                    "product_sku" : "STBT1P0000000000"
+                                },
+                                {
+                                    "product_qty" : row["DB"],
+                                    "product_sku" : "STBT1P0000000000"
+                                },
+                            
+                            ]
+                            # result[phase][val]["qty"] = row["VM " + phase]
+    print(let)
+    return result
 getFromVmWorkingSheeet()
+
+
+

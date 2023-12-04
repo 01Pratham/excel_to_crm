@@ -1,0 +1,3586 @@
+{
+    "0-7 Months BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 16.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 17.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 18.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 19.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 20.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 21.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 22.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 23.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 24.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 26.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 27.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 28.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 29.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 30.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 31.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 16.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 17.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 18.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 19.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 20.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 21.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 22.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 55.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 5.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "8-12 Months BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 65.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 6.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "13-18 Months BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 7.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "19-24 Months BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 8.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "25-28 Months BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "2nd Year BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 10.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "3rd Year BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 11.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "4th Year BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 12.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "5th Years BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "6 Years BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "7th Years BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "8th years BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 13.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "9 Years BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 14.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    },
+    "10 Years BOM DC": {
+        "Software Licenses": {
+            "Windows Standard Edition": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Linux : SUSE": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-STD": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL-Enterprise Core ": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Storage and Backup Services": {
+            "Object Storage 0.3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 10 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 1 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Object Storage 8 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 0.3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 10 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 1 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 8 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 0.3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 10 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 1 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 3 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 5 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "File Storage 8 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 15 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 20 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 25 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 30 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 40 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 50 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Block Storage 100 IOPS per GB": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Storage - Per GB 0.3 IOPS": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Archival Space": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Network and Connectivity Services": {
+            "Speed Based Internet Bandwidth": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Cross Connect and Port Termination": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Security Solution": {
+            "Anti-Virus": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Alpha SSL Wild Card": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Palo alto - Physical UTM- 1 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "VTMScan - 60Scan": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SECEON - SIEM-Internal Security": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "NON CERT IN- VAPT Audit": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DDOS Mitigation - 1Gbps": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Security orchestration, automation and response": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Other- VWAF - 2Gbps": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual Internal Firewall - 2 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Fortinet - Virtual External Firewall - 2 Gpbs": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Hardware Security Module - Shared": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "DLP VM - End Point": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "iRaje- Priviledge Identity Management-OEM": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Identity Access Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Endpoint Detection & Response Service": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "McAfee - Database activity monitoring": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "OEM MFA Fortinet": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        },
+        "Managed Services": {
+            "Windows Operating System Managed Services": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "SUSE - OSMng- Managed Services": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "MSSQL Database Managed Services (Up to 100 GB)": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Storage Management Per TB": {
+                "product_qty": 25.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Backup Management - per Instance": {
+                "product_qty": 4.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Load Balancer Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "FireWall Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Web Application Firewall Management": {
+                "product_qty": 15.0,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "eMagic Monitoring Basic": {
+                "product_qty": 9.0,
+                "product_sku": "CCVRAT0000000000"
+            }
+        }
+    }
+}
