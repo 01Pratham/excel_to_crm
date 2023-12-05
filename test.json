@@ -1,5 +1,247 @@
 {
     "0-7 Months BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 22,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 64,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 1600,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 11,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 11,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 20,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 62,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 1400,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 18,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 60,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 1200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 16,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 58,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 1000,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 14,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 56,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 800,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 14,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 12,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 54,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 600,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 12,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 10,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 52,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 400,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 8,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 50,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 6,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 48,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 500,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 3,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 46,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 900,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 2,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 44,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 10000,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 5.0,
@@ -256,6 +498,248 @@
         }
     },
     "8-12 Months BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 6.0,
@@ -512,6 +996,248 @@
         }
     },
     "13-18 Months BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 7.0,
@@ -768,6 +1494,248 @@
         }
     },
     "19-24 Months BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 8.0,
@@ -1024,6 +1992,248 @@
         }
     },
     "25-28 Months BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 9.0,
@@ -1280,6 +2490,248 @@
         }
     },
     "2nd Year BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 10.0,
@@ -1536,6 +2988,248 @@
         }
     },
     "3rd Year BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 11.0,
@@ -1792,6 +3486,248 @@
         }
     },
     "4th Year BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 12.0,
@@ -2048,6 +3984,248 @@
         }
     },
     "5th Years BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 13.0,
@@ -2304,6 +4482,248 @@
         }
     },
     "6 Years BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 14.0,
@@ -2560,6 +4980,248 @@
         }
     },
     "7th Years BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 15.0,
@@ -2816,6 +5478,248 @@
         }
     },
     "8th years BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 13.0,
@@ -3072,6 +5976,248 @@
         }
     },
     "9 Years BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 14.0,
@@ -3328,6 +6474,248 @@
         }
     },
     "10 Years BOM DC": {
+        "abc 1 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 2 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "SUSE": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Passive VM": {
+                "product_qty": 0,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 3 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Linux": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 4 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "My SQL Enterprise Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 5 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "OEM Specific": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Community Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 6 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Postgre SQL Enterprise Edition": {
+                "product_qty": 4,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 7 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Standard Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 8 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Debian": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Oracle Enterprise": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 9 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Maria DB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 10 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MongoDB Community Edition": {
+                "product_qty": 1,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
+        "abc 11 VM": {
+            "CPU": {
+                "product_qty": 4,
+                "product_sku": "CCVCVS0000000000"
+            },
+            "RAM": {
+                "product_qty": 8,
+                "product_sku": "CCVRAT0000000000"
+            },
+            "Disk": {
+                "product_qty": 200,
+                "product_sku": "STBT1P0000000000"
+            },
+            "Win": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            },
+            "MS SQL Enterprise Edition - Active VM": {
+                "product_qty": 2,
+                "product_sku": "STBT1P0000000000"
+            }
+        },
         "Software Licenses": {
             "Windows Standard Edition": {
                 "product_qty": 15.0,

@@ -45,7 +45,7 @@ def getFromCommanSheets():
                         "product_qty" : row[phase],
                         "product_sku" : "CCVRAT0000000000"
                     }
-                    
+              
     return result
 def getFromVmWorkingSheeet():
     result = {}
@@ -66,42 +66,58 @@ def getFromVmWorkingSheeet():
                 for key , val in row.to_dict().items():
                     for phase in phases:
                         if key == "BOM_Name":
-                            let.append(sheet)
+                            let.append(row["BOM_Name"])
                         if "VM" in key and "Name" in key:
                             group.append(val)
-                            result[phase][row["VM Name"]] = [
-                                {
+                            result[phase][row["VM Name"] + " VM"] = {
+                                "CPU":{
                                     "product_qty" : row["Core " + phase],
                                     "product_sku" : "CCVCVS0000000000"
                                 },
-                                {
+                                "RAM":{
                                     "product_qty" : row["RAM " + phase],
                                     "product_sku" : "CCVRAT0000000000"
                                 },
-                                {
+                                "Disk":{
                                     "product_qty" : row["DISK " + phase],
                                     "product_sku" : "STBT1P0000000000"
                                 },
-                                {
-                                    "product_qty" : row["OS"],
+                                row["OS"]:{
+                                    "product_qty" : row["OS "+ phase],
                                     "product_sku" : "STBT1P0000000000"
                                 },
-                                {
-                                    "product_qty" : row["DB"],
+                                row["DB"]:{
+                                    "product_qty" : row["DB "+ phase],
                                     "product_sku" : "STBT1P0000000000"
                                 },
                             
-                            ]
+                            }
                             # result[phase][val]["qty"] = row["VM " + phase]
     # print(let)
-    # print(result)
     newRes = {}
     let = list(set(let))
     for _K , _V in result.items():
         for _P in let:
-            result[_K +" "+_P] = _V
-    return result
-getFromVmWorkingSheeet()
+            newRes[_K +" "+_P] = _V
+
+    return newRes
 
 
+def merge_dicts(dict1, dict2):
+    merged = dict1.copy()
+    for key, value in dict2.items():
+        if key in merged and isinstance(merged[key], dict) and isinstance(value, dict):
+            merged[key] = merge_dicts(merged[key], value)
+        else:
+            merged[key] = value
+    return merged
 
+
+dict1 = getFromVmWorkingSheeet()
+dict2 = getFromCommanSheets()
+
+merged_dict = merge_dicts(dict1, dict2)
+
+json_data = json.dumps(merged_dict , indent=4)
+fo = open("test.json","w+")
+fo.write(json_data)
