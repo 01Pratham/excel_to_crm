@@ -23,7 +23,7 @@ def getFromCommanSheets():
                 for sheet2 in SheetNames:
                     if sheet2 == "PhasesDetails" or sheet2 == "VM Working" or sheet2 == "product_mater":
                         continue
-                    result[row['Phases'] +" "+ sheet2 ] = {}
+                    result[row['Phases'] +"_"+ sheet2 ] = {}
         else:
             df = pd.read_excel(file, sheet)
             for index , row in df.iterrows():
@@ -32,7 +32,7 @@ def getFromCommanSheets():
                         for phase in phases:
                             if pd.isna(row["group"]):
                                 continue
-                            result[phase +" "+sheet][row["group"]] = {}
+                            result[phase +"_"+sheet][row["group"]] = {}
                     
     for sheet in SheetNames:
         if sheet == "VM Working" or sheet == "product_mater" or sheet == "PhasesDetails":
@@ -41,7 +41,7 @@ def getFromCommanSheets():
         for index , row in df.iterrows():
             for phase in phases:
                 if not pd.isna(row["Product Name"]):
-                    result[phase +" "+sheet][row["group"]][row["Product Name"]] = {
+                    result[phase +"_"+sheet][row["group"]][row["Product Name"]] = {
                         "product_qty" : row[phase],
                         "product_sku" : "CCVRAT0000000000"
                     }
@@ -54,7 +54,6 @@ def getFromVmWorkingSheeet():
     let= []
 
     for sheet in SheetNames:
-            
         if sheet == "PhasesDetails":
             dfPhases = pd.read_excel(file, sheet)
             for index , row in dfPhases.iterrows():
@@ -98,11 +97,19 @@ def getFromVmWorkingSheeet():
     let = list(set(let))
     for _K , _V in result.items():
         for _P in let:
-            newRes[_K +" "+_P] = _V
+            newRes[_K +"_"+_P] = _V
 
     return newRes
 
 
+def getPhases():
+    phases = []
+    for sheet in SheetNames:
+        if sheet == "PhasesDetails":
+            dfPhases = pd.read_excel(file, sheet)
+            for index , row in dfPhases.iterrows():
+                phases.append(row['Phases'])
+    return phases
 def merge_dicts(dict1, dict2):
     merged = dict1.copy()
     for key, value in dict2.items():
@@ -111,6 +118,8 @@ def merge_dicts(dict1, dict2):
         else:
             merged[key] = value
     return merged
+
+
 
 
 dict1 = getFromVmWorkingSheeet()
