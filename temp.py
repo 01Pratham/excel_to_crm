@@ -54,9 +54,7 @@ def getFromVmWorkingSheeet():
     let= []
 
     for sheet in SheetNames:
-        if sheet not in ["VM Working", "product_mater", "PhasesDetails"]:
-            let.append(sheet)
-
+            
         if sheet == "PhasesDetails":
             dfPhases = pd.read_excel(file, sheet)
             for index , row in dfPhases.iterrows():
@@ -67,10 +65,11 @@ def getFromVmWorkingSheeet():
             for index , row in df.iterrows():
                 for key , val in row.to_dict().items():
                     for phase in phases:
+                        if key == "BOM_Name":
+                            let.append(sheet)
                         if "VM" in key and "Name" in key:
                             group.append(val)
-                            # print (val)
-                            result[phase ][row["VM Name"]] = [
+                            result[phase][row["VM Name"]] = [
                                 {
                                     "product_qty" : row["Core " + phase],
                                     "product_sku" : "CCVCVS0000000000"
@@ -94,7 +93,13 @@ def getFromVmWorkingSheeet():
                             
                             ]
                             # result[phase][val]["qty"] = row["VM " + phase]
-    print(let)
+    # print(let)
+    # print(result)
+    newRes = {}
+    let = list(set(let))
+    for _K , _V in result.items():
+        for _P in let:
+            result[_K +" "+_P] = _V
     return result
 getFromVmWorkingSheeet()
 
