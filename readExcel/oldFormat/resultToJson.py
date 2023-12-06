@@ -1,6 +1,6 @@
 import json
 import datetime
-from db import cursor as conn
+from ...model.db import cursor as conn
 
 def resultToJson(result):
     DateTime = datetime.datetime.now()

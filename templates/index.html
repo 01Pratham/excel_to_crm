@@ -1,1 +1,79 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bootstrap Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap and jQuery JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="">
+        <div style="">
+            {% for phase, pVal in data.items() %}
+                <table>
+                    <tr>
+                        {% for head in header %}
+                            <td class="head" data-index="{{ header.index(head) }}">{{ head }}</td>
+                        {% endfor %}
+                    </tr>
+                    {% for group,gVal in pVal.items() %}
+                    <tr>
+                        <td>{{ phase }}</td>
+                        <td class="text-center">{{ Tenure[phase] }}</td>
+                        <td>{{ group }}</td>
+                        {% if " VM" in group %}
+                            <td class="text-center"> 
+                                {{ gVal["qty"] }}
+                            </td>
+                        {% else %}
+                            <td class="text-center">{{ "1" }}</td>
+                        {% endif %}
+
+                        {% for head in header %}
+                            {% if head not in ["Phase Name" , "Duration", "Group Name", "Group Qty"] %}
+                                <td class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}" id = "prod_{{ header.index(head) }}" data-phase = "{{ phase }}" data-group = "{{ group }}"></td>
+                            {% endif %}
+                        {% endfor %}
+                            
+                    </tr>
+                    {% endfor %}
+                    
+                </table>
+            {% endfor %}
+        </div>    
+    </div>
+
+<script type="text/javascript">
+    {% for phase, pVal in data.items() %}
+        {% for group,gVal in pVal.items() %}
+            {% for prod ,iVal in gVal.items() %}
+                {% if prod in header %}
+                    $(".{{ phase.replace(' ', '') }}").each(function(){
+                        if($(this).hasClass("{{ group.replace(' ', '') }}")){
+                            if($(this).prop("id") == "prod_{{ header.index(prod) }}"){
+                                $(this).html("{{ iVal['product_qty'] }}");
+                            }
+                        }
+                    })
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    {% endfor %}
+</script>
+
+
+</body>
+</html>
+
+

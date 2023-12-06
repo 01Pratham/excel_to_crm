@@ -5,7 +5,7 @@ import json
 import openpyxl as xl
 
 
-file = "../ExcelTemplates/template.xlsx"
+file = "readExcel/template.xlsx"
 
 xl_file = pd.ExcelFile(file)
 
@@ -89,6 +89,7 @@ def getFromVmWorkingSheeet():
                                     "product_qty" : row["DB "+ phase],
                                     "product_sku" : "STBT1P0000000000"
                                 },
+                                "qty" : row["VM " + phase]
                             
                             }
                             # result[phase][val]["qty"] = row["VM " + phase]
@@ -128,5 +129,5 @@ dict2 = getFromCommanSheets()
 merged_dict = merge_dicts(dict1, dict2)
 
 json_data = json.dumps(merged_dict , indent=4)
-fo = open("test.json","w+")
-fo.write(json_data)
+# fo = open("test.json","w+")
+# fo.write(json_data)
