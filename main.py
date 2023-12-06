@@ -5,8 +5,8 @@ import readExcel.tempTable as tbl
 app = Flask(__name__)
 
 
-@app.route('/')
-def hello():
+@app.route('/process')
+def process():
     data =  res.merged_dict
     tblHeader = tbl.tblHeaders
     phaseList = tbl.phaseList
@@ -15,6 +15,10 @@ def hello():
     products = tbl.products
 
     return render_template("index.html" , data = data, header = tblHeader, Tenure = phaseTenure)
+
+@app.route("/")
+def main():
+    return "True"
 
 if __name__ == '__main__':
     # app.run()
