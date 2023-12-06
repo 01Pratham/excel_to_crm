@@ -15,13 +15,19 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/jquery-table2excel@1.1.1/dist/jquery.table2excel.min.js
+    "></script>
 </head>
 <body>
+<div class="">
+    <button class="" id="btn">click</button>
+</div>
 
     <div class="">
         <div style="">
             {% for phase, pVal in data.items() %}
-                <table>
+                <table class="exprt">
                     <tr>
                         {% for head in header %}
                             <td class="head" data-index="{{ header.index(head) }}">{{ head }}</td>
@@ -70,6 +76,19 @@
             {% endfor %}
         {% endfor %}
     {% endfor %}
+
+$("#btn").click(function(){
+    $(".exprt").table2excel({
+        exclude: ".noExl",  
+        name: "Output excel file ", 
+        filename: "test",
+        fileext: ".xls", //File extension type 
+        exclude_img: true, 
+        exclude_links: true, 
+        exclude_inputs: true, 
+    })
+})
+
 </script>
 
 
