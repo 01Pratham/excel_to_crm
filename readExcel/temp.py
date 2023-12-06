@@ -5,7 +5,7 @@ import json
 import openpyxl as xl
 
 
-file = "template.xlsx"
+file = "../ExcelTemplates/template.xlsx"
 
 xl_file = pd.ExcelFile(file)
 

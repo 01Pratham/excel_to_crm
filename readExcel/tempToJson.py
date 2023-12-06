@@ -49,4 +49,4 @@ for row_num, row_data in enumerate(phaseList, 2):
         worksheet.cell(row=row_num, column=col_num, value=cell_value)
 
 # Save the workbook
-workbook.save('crm_template.xlsx')
+workbook.save('../ExcelTemplates/crm_template.xlsx')
