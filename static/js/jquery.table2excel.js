@@ -15,7 +15,7 @@
         name: "Table2Excel",
         filename: "table2excel",
         fileext: ".xlsx",
-        exclude_img: true,
+        exclude_img: false,
         exclude_links: true,
         exclude_inputs: true,
         preserveColors: true

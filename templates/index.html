@@ -1,97 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="{{ url_for('static', filename = 'js/main.js') }}"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/style.css') }}"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Bootstrap Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="
-    https://cdn.jsdelivr.net/npm/jquery-table2excel@1.1.1/dist/jquery.table2excel.min.js
-    "></script>
-</head>
-
-<body>
-    <div style="display: block;" class="tbl">
-        {% for phase, pVal in data.items() %}
-        
-        <table class="exprt">
-            <tr>
-                {% for head in header %}
-                <td class="head" data-index="{{ header.index(head) }}">{{ head }}</td>
-                {% if head not in ["Phase Name" , "Duration", "Group Name", "Group Qty"] %}
-                    <td>Recurring Discount {{ loop.index0+1 }}</td>
-                {% endif %}
-                {% endfor %}
-            </tr>
-            {% for group,gVal in pVal.items() %}
-            <tr>
-                <td>{{ phase }}</td>
-                <td class="text-center">{{ Tenure[phase] }}</td>
-                <td>{{ group }}</td>
-                {% if " VM" in group %}
-                <td class="text-center">
-                    {{ gVal["qty"] }}
-                </td>
-                {% else %}
-                <td class="text-center">{{ "1" }}</td>
-                {% endif %}
-
-                {% for head in header %}
-                {% if head not in ["Phase Name" , "Duration", "Group Name", "Group Qty"] %}
-                <td class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
-                    id="prod_{{ header.index(head) }}" data-phase="{{ phase }}" data-group="{{ group }}"></td>
-                <td></td>
-                {% endif %}
-                {% endfor %}
-            </tr>
-
-            {% endfor %}
-<tr hidden></tr>
-        </table>
-        {% endfor %}
+  <body>
+    <div class="maincontent">
+      <form action="{{ '/process' }}" method="post">
+        <div class="file-upload-wrapper">
+          <h4>File Upload</h4>
+          <hr />
+          <input
+            type="file"
+            id="fileId"
+            class="file-upload-input"
+            name="files"
+            accept=".xlsx , .xls"
+            hidden
+          />
+          <label class="box-fileupload" for="fileId">
+            <p class="file-upload-btn"></p>
+            <p class="box-fileupload__lable">Drop files here to upload</p>
+          </label>
+          <div class="error-wrapper"></div>
+          <div class="image-previwe"></div>
+          <div class="overlay">Drop files here to upload</div>
+        </div>
+        <div class="file-upload-wrapper d-flex justify-content-center">
+          <button class="file-upload-wrapper-title__btn">Upload Now</button>
+        </div>
+      </form>
     </div>
-
-    <script type="text/javascript">
-        $(Document).ready(function () {
-
-            {% for phase, pVal in data.items() %}
-            {% for group, gVal in pVal.items() %}
-            {% for prod, iVal in gVal.items() %}
-            {% if prod in header %}
-            $(".{{ phase.replace(' ', '') }}").each(function () {
-                if ($(this).hasClass("{{ group.replace(' ', '') }}")) {
-                    if ($(this).prop("id") == "prod_{{ header.index(prod) }}") {
-                        $(this).html("{{ iVal['product_qty'] }}");
-                    }
-                }
-            })
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
-            {% endfor %}
-
-            // $("#btn").click(function(){
-            $(".tbl").table2excel({
-                exclude: ".noExl",
-                name: "Output excel file ",
-                filename: "test",
-                fileext: ".xls", //File extension type 
-                exclude_img: true,
-                exclude_links: true,
-                exclude_inputs: true,
-                preserveColors: true
-            })
-            })
-        // })
-
-    </script>
-
-
-</body>
-
+  </body>
 </html>
+
+<script>
+  $(document).ready(function () {
+    var fileUploadWrapper = $("#fileUploadWrapper");
+    var boxFileUpload = $("#boxFileUpload");
+    var fileId = $("#fileId");
+
+    boxFileUpload.on("dragover", function (e) {
+      e.preventDefault();
+      fileUploadWrapper.addClass("dragover");
+    });
+
+    boxFileUpload.on("dragleave", function () {
+      fileUploadWrapper.removeClass("dragover");
+    });
+
+    boxFileUpload.on("drop", function (e) {
+      e.preventDefault();
+      fileUploadWrapper.removeClass("dragover");
+
+      var file = e.originalEvent.dataTransfer.files[0];
+
+      // Update file input with the dropped file
+      fileId[0].files = e.originalEvent.dataTransfer.files;
+
+      // Display a preview or any other relevant information about the dropped file
+      var previewDiv = $(".image-preview");
+      previewDiv.html("<p>File Name: " + file.name + "</p>");
+    });
+  });
+
+  // Function to handle form submission
+  function uploadFiles() {
+    // Add any additional logic for form submission if needed
+    // For example, you might want to perform an AJAX request to handle file upload
+    // This example assumes a traditional form submission
+    document.forms[0].submit();
+  }
+</script>

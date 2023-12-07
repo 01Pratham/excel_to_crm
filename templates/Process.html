@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Bootstrap Page</title>
+    <link
+      rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static' , filename = 'js/jquery.table2excel.js') }}"></script>
+
+  </head>
+
+  <body>
+    <div id="btn"></div>
+    <div class="tbl">
+      {% for phase, pVal in data.items() %}
+
+      <table class="exprt">
+        <tr>
+          {% for head in header %}
+          <th style="border : 1px solid rgb(83, 83, 83); background :rgb(47, 130, 255); color: white;font-weight: normal;" class="head" data-index="{{ header.index(head) }}">{{ head }}</th>
+          {% if head not in ["Phase Name" , "Duration", "Group Name", "Group Qty"] %}
+          <th style="border : 1px solid rgb(83, 83, 83); background :rgb(47, 130, 255); color: white;font-weight: normal;">Recurring Discount {{ loop.index0+1 }}</th>
+          {% endif %} 
+          {% endfor %}
+        </tr>
+        {% for group,gVal in pVal.items() %}
+        <tr>
+          <td style="border : 1px solid rgb(83, 83, 83);">{{ phase }}</td>
+          <td class="text-center" style="border : 1px solid rgb(83, 83, 83);">{{ Tenure[phase] }}</td>
+          <td style="border : 1px solid rgb(83, 83, 83);">{{ group }}</td>
+          {% if " VM" in group %}
+          <td style="border : 1px solid rgb(83, 83, 83);" class="text-center">{{ gVal["qty"] }}</td>
+          {% else %}
+          <td style="border : 1px solid rgb(83, 83, 83);" class="text-center">{{ "1" }}</td>
+          {% endif %} {% for head in header %} {% if head not in ["Phase Name" ,
+          "Duration", "Group Name", "Group Qty"] %}
+          <td style="border : 1px solid rgb(83, 83, 83);"
+            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
+            id="prod_{{ header.index(head) }}"
+            data-phase="{{ phase }}"
+            data-group="{{ group }}"
+          ></td>
+          <td style="border : 1px solid rgb(83, 83, 83);"></td>
+          {% endif %} {% endfor %}
+        </tr>
+
+        {% endfor %}
+        <tr></tr>
+      </table>
+      {% endfor %}
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+
+          {% for phase, pVal in data.items() %}
+          {% for group, gVal in pVal.items() %}
+          {% for prod, iVal in gVal.items() %}
+          {% if prod in header %}
+          $(".{{ phase.replace(' ', '') }}").each(function () {
+              if ($(this).hasClass("{{ group.replace(' ', '') }}")) {
+                  if ($(this).prop("id") == "prod_{{ header.index(prod) }}") {
+                      $(this).html("{{ iVal['product_qty'] }}");
+                  }
+              }
+          });
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          {% endfor %}
+
+      })
+    </script>
+
+    <script>
+        function getExcel(){
+           $(".tbl").table2excel({
+                exclude: ".noExl",
+                filename: "test",
+                fileext: ".xls", 
+                exclude_img: true,
+                exclude_links: true,
+                //sheetName: 'BOM_DC',
+                preserveColors: true,
+            })
+        }
+    </script>
+  </body>
+</html>
+ 
+
+
+<style>
+.tbl{
+    display: block;
+    margin: 20px;
+}
+.tbl table {
+    width:100%;
+}
+/* .tbl table tr th , .tbl table tr td{
+    border :1px solid rgb(83, 83, 83);
+}
+*/
+.tbl table tr th {
+    background-color: rgb(47, 130, 255);
+    color: white;font-weight: normal;
+
+}
+
+</style>
