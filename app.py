@@ -16,22 +16,18 @@ def process():
             # Save the file to a temporary location or your desired location
             file_path = os.path.join("uploads", "temp_uploaded_file.xlsx")
             uploaded_file.save(file_path)
-
             # Process the uploaded file using DataProcessor or any other logic
-            data_processor = DataProcessor(file_path)
-            data_processor.process_data()
+            try : 
+                data_processor = DataProcessor(file_path)
+                data = data_processor.merged_dicts()
+                tbl_header = data_processor.tblHeaders()
+                phase_list = data_processor.getPhases()
+                phase_tenure = data_processor.phaseTenure()
 
-            # Process the uploaded file using DataProcessor or any other logic
-            data_processor = DataProcessor(file_path)
-            data_processor.process_data()
-
-            data = data_processor.merged_dict
-            tbl_header = data_processor.products
-            phase_list = list(data_processor.group_list.keys())
-            phase_tenure = data_processor.phase_tenure
-
-            # You can do something with the processed data, for example, render a template
-            return render_template("Process.html", data=data, header=tbl_header, tenure=phase_tenure)
+                # You can do something with the processed data, for example, render a template
+                return render_template("Process.html", data=data, header=tbl_header, Tenure=phase_tenure)
+            except Exception as e:
+                return render_template("IncorrectFile.html")
         else:
             return render_template("badReq.html", message="No file uploaded.")
     else:

@@ -18,11 +18,13 @@ class DataProcessor(ExcelProcessor):
         for phase, p_vals in self.merged_dicts().items():
             self.group_list[phase] = []
             new_p = phase.split("_")[0]
-            if new_p in self.get_phases():
+            if new_p in self.getPhases():
                 self.phase_tenure[phase] = self.get_phase_tenure(new_p)
             for groups, g_vals in p_vals.items():
                 self.group_list[phase].append(groups)
                 for items, i_vals in g_vals.items():
+                    if items == "qty":
+                        continue
                     self.products.append(items)
 
         self.products = list(set(self.products))
@@ -30,11 +32,11 @@ class DataProcessor(ExcelProcessor):
         tblHeaders += self.products
         return tblHeaders
     
-    def phaseList(self):
+    def phaseTenure(self):
         phase_tenure = {}
         for phase, p_vals in self.merged_dicts().items():
             new_p = phase.split("_")[0]
-            if new_p in self.get_phases():
+            if new_p in self.getPhases():
                 phase_tenure[phase] = self.get_phase_tenure(new_p)
         return phase_tenure
     

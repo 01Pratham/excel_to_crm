@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Bootstrap Page</title>
+    <title>Processing</title>
     <link
       rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     <link
@@ -15,14 +15,27 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="{{ url_for('static' , filename = 'js/jquery.table2excel.js') }}"></script>
 
+  <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/loader.css') }}"
+    />
   </head>
 
   <body>
+    <div id="loader">
+      <div class="cube-folding">
+          <span class="leaf1"></span>
+          <span class="leaf2"></span>
+          <span class="leaf3"></span>
+          <span class="leaf4"></span>
+
+      </div>
+    </div>
     <div id="btn"></div>
     <div class="tbl">
       {% for phase, pVal in data.items() %}
 
-      <table class="exprt">
+      <table class="exprt" hidden>
         <tr>
           {% for head in header %}
           <th style="border : 1px solid rgb(83, 83, 83); background :rgb(47, 130, 255); color: white;font-weight: normal;" class="head" data-index="{{ header.index(head) }}">{{ head }}</th>
@@ -33,9 +46,9 @@
         </tr>
         {% for group,gVal in pVal.items() %}
         <tr>
-          <td style="border : 1px solid rgb(83, 83, 83);">{{ phase }}</td>
+          <td style="border : 1px solid rgb(83, 83, 83);">{{ phase.replace("_",' ') }}</td>
           <td class="text-center" style="border : 1px solid rgb(83, 83, 83);">{{ Tenure[phase] }}</td>
-          <td style="border : 1px solid rgb(83, 83, 83);">{{ group }}</td>
+          <td style="border : 1px solid rgb(83, 83, 83);">{{ group.replace(" VM", '') }}</td>
           {% if " VM" in group %}
           <td style="border : 1px solid rgb(83, 83, 83);" class="text-center">{{ gVal["qty"] }}</td>
           {% else %}
@@ -58,9 +71,13 @@
       {% endfor %}
     </div>
 
+    
     <script type="text/javascript">
       $(document).ready(function () {
-
+        if($(".tbl").html() == ''){
+          alert("Incorrect file format");
+          location.href = "/";
+        }else{
           {% for phase, pVal in data.items() %}
           {% for group, gVal in pVal.items() %}
           {% for prod, iVal in gVal.items() %}
@@ -76,7 +93,7 @@
           {% endfor %}
           {% endfor %}
           {% endfor %}
-
+        }
       })
     </script>
 
@@ -92,6 +109,14 @@
                 preserveColors: true,
             })
         }
+
+        $(document).ready(function(){
+          if($(".tbl").html() != ''){
+              getExcel()
+  
+              location.href = "/"
+          }
+        })
     </script>
   </body>
 </html>
@@ -105,6 +130,7 @@
 }
 .tbl table {
     width:100%;
+    display: none;
 }
 /* .tbl table tr th , .tbl table tr td{
     border :1px solid rgb(83, 83, 83);

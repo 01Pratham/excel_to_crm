@@ -58,7 +58,7 @@ class ExcelProcessor:
         result = {}
         phases = []
         group = []
-        let= []
+        let= {}
 
         for sheet in self.SheetNames:
             if sheet == "PhasesDetails":
@@ -72,8 +72,23 @@ class ExcelProcessor:
                     for key , val in row.to_dict().items():
                         for phase in phases:
                             if key == "BOM_Name":
-                                let.append(row["BOM_Name"])
+                                let[row["BOM_Name"]] = []
+
+        for sheet in self.SheetNames:
+            if sheet == "PhasesDetails":
+                dfPhases = pd.read_excel(self.file_path, sheet)
+                for index , row in dfPhases.iterrows():
+                    phases.append(row['Phases'])
+                    result[row['Phases']] = {}
+            if sheet == "VM Working":
+                df = pd.read_excel(self.file_path, sheet)
+                for index , row in df.iterrows():
+                    for key , val in row.to_dict().items():
+                        for phase in phases:
                             if "VM" in key and "Name" in key:
+                                for l,p in let.items():
+                                    if  row["BOM_Name"]== l:
+                                        let[l].append(val + " VM")
                                 group.append(val)
                                 result[phase][row["VM Name"] + " VM"] = {
                                     "CPU":{
@@ -99,13 +114,21 @@ class ExcelProcessor:
                                     "qty" : row["VM " + phase]
                                 
                                 }
-                                # result[phase][val]["qty"] = row["VM " + phase]
-        # print(let)
         newRes = {}
-        let = list(set(let))
-        for _K , _V in result.items():
-            for _P in let:
-                newRes[_K +"_"+_P] = _V
+        newLet = {}
+        for _B, _P in let.items():
+            newLet[_B] = list(set(_P))
+        for _K, _V in result.items():
+            for _B,_P in newLet.items():
+                for _G , _v in _V.items():
+                    if _G in newLet[_B]:
+                        newRes[_K +"_" + _B] = {} 
+        for _K, _V in result.items():
+            for _B,_P in newLet.items():
+                for _G , _v in _V.items():
+                    if _G in newLet[_B]:
+                        newRes[_K +"_" + _B][_G] = _v
+
 
         return newRes
 
