@@ -31,7 +31,8 @@
     <div class="container my-4">
       <form action="{{ '/process' }}" method="post" enctype="multipart/form-data">
         <div class="file-upload-wrapper">
-          <h4 class="my-1">File Upload</h4>
+          
+          <h4 class="my-1">Get Template : <a href="{{ url_for('static', filename = 'template.xlsx') }}" >Here</a></h4>
           <hr />
           <input
             type="file"
@@ -51,6 +52,7 @@
         </div>
         <div class="file-upload-wrapper d-flex justify-content-center">
           <button class="file-upload-wrapper-title__btn">Upload Now</button>
+          
         </div>
       </form>
     </div>
