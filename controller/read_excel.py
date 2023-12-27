@@ -91,15 +91,15 @@ class ExcelProcessor:
                                         let[l].append(val + " VM")
                                 group.append(val)
                                 result[phase][row["VM Name"] + " VM"] = {
-                                    "CPU":{
+                                    "vCPU Elastic Cloud - Compute":{
                                         "product_qty" : row["Core " + phase],
                                         "product_sku" : "CCVCVS0000000000"
                                     },
-                                    "RAM":{
+                                    "vRAM Elastic Cloud- Compute":{
                                         "product_qty" : row["RAM " + phase],
                                         "product_sku" : "CCVRAT0000000000"
                                     },
-                                    "Disk":{
+                                    "Block Storage - 1 IOPS / GB    ":{
                                         "product_qty" : row["DISK " + phase],
                                         "product_sku" : "STBT1P0000000000"
                                     },

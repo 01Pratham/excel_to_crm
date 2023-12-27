@@ -1,4 +1,4 @@
-import tempTable
+import tempTable as 
 import pandas as pd
 import openpyxl as xl
 
@@ -15,5 +15,5 @@ for row_num, row_data in enumerate(phaseList, 2):
     for col_num, cell_value in enumerate(row_data, 1):
         worksheet.cell(row=row_num, column=col_num, value=cell_value)
 
-Save the workbook
+# Save the workbook
 workbook.save('../ExcelTemplates/crm_template.xlsx')
