@@ -33,3 +33,5 @@ if __name__ == '__main__':
     app.run(debug=True)
     os.makedirs("uploads", exist_ok=True)
     app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+    # from waitress import serve
+    # serve(app, host="0.0.0.0", port=8080)
