@@ -17,8 +17,10 @@ def process():
                 tbl_header = data_processor.tblHeaders()
                 phase_list = data_processor.getPhases()
                 phase_tenure = data_processor.phaseTenure()
-                return render_template("Process.html", data=data, header=tbl_header, Tenure=phase_tenure)
-            except Exception as e:  
+                # return render_template("Process.html", data=data, header=tbl_header, Tenure=phase_tenure)
+                # return render_template("test.html", data=data, header=tbl_header, Tenure=phase_tenure)
+                return (data)
+            except Exception as e:
                 return render_template("IncorrectFile.html")
         else:
             return render_template("badReq.html", message="No file uploaded.")
@@ -28,6 +30,10 @@ def process():
 @app.route("/")
 def main():
     return render_template("index.html")
+
+@app.route("/test_api",  methods=['POST'])
+def api():
+    return "hi"
 
 if __name__ == '__main__':
     app.run(debug=True)

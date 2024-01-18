@@ -23,7 +23,7 @@ class DataProcessor(ExcelProcessor):
             for groups, g_vals in p_vals.items():
                 self.group_list[phase].append(groups)
                 for items, i_vals in g_vals.items():
-                    if items == "qty":
+                    if items == "qty" or items == "Select DB":
                         continue
                     self.products.append(items)
 

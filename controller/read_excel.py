@@ -48,7 +48,7 @@ class ExcelProcessor:
                     if not pd.isna(row["Product Name"]):
                         result[phase +"_"+sheet][row["group"]][row["Product Name"]] = {
                             "product_qty" : row[phase],
-                            "product_sku" : "CCVRAT0000000000"
+                            "discount" : row["Discount Percent"]  
                         }
                 
         return result
@@ -93,27 +93,29 @@ class ExcelProcessor:
                                 result[phase][row["VM Name"] + " VM"] = {
                                     "vCPU Elastic Cloud - Compute":{
                                         "product_qty" : row["Core " + phase],
-                                        "product_sku" : "CCVCVS0000000000"
+                                        "discount" : "CCVCVS0000000000"
                                     },
                                     "vRAM Elastic Cloud- Compute":{
                                         "product_qty" : row["RAM " + phase],
-                                        "product_sku" : "CCVRAT0000000000"
+                                        "discount" : "CCVRAT0000000000"
                                     },
                                     "Block Storage - 1 IOPS / GB    ":{
                                         "product_qty" : row["DISK " + phase],
-                                        "product_sku" : "STBT1P0000000000"
+                                        "discount" : "STBT1P0000000000"
                                     },
                                     row["OS"]:{
                                         "product_qty" : row["OS "+ phase],
-                                        "product_sku" : "STBT1P0000000000"
-                                    },
-                                    row["DB"]:{
-                                        "product_qty" : row["DB "+ phase],
-                                        "product_sku" : "STBT1P0000000000"
+                                        "discount" : "STBT1P0000000000"
                                     },
                                     "qty" : row["VM " + phase]
                                 
                                 }
+                                
+                                if row["DB"] != "Select DB" : 
+                                    result[phase][row["VM Name"] + " VM"][row["DB"]]= {
+                                        "product_qty" : row["DB "+ phase],
+                                        "discount" : "STBT1P0000000000"
+                                    }
         newRes = {}
         newLet = {}
         for _B, _P in let.items():
