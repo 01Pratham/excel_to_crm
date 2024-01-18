@@ -18,7 +18,7 @@ def process():
                 phase_list = data_processor.getPhases()
                 phase_tenure = data_processor.phaseTenure()
                 return render_template("Process.html", data=data, header=tbl_header, Tenure=phase_tenure)
-            except Exception as e:
+            except Exception as e:  
                 return render_template("IncorrectFile.html")
         else:
             return render_template("badReq.html", message="No file uploaded.")

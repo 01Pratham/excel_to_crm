@@ -12,10 +12,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="{{ url_for('static' , filename = 'js/jquery-3.7.1.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="{{ url_for('static' , filename = 'js/jquery.table2excel.js') }}"></script>
+    <!-- <script src="{{ url_for('static' , filename = 'js/jquery.table2excel.js') }}"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/exceljs/dist/exceljs.min.js"></script>
 
     <link
@@ -25,7 +25,6 @@
   </head>
 
   <body>
-    
     <div id="loader">
       <div class="cube-folding">
         <span class="leaf1"></span>
@@ -34,61 +33,62 @@
         <span class="leaf4"></span>
       </div>
     </div>
-  
+
     <div class="tbl d-none">
-
       {% for phase, pVal in data.items() %}
-        <table class="exprt">
-          <tr>
-            {% for head in header %}
-              {% if head == "Select DB" %}
-
-              {% else %}
-              <th
-              style="
-              border: 1px solid rgb(83, 83, 83);
+      <table class="exprt">
+        <tr>
+          {% for head in header %} {% if head == "Select DB" %} {% else %}
+          <th
+            style="border: 1px solid rgb(83, 83, 83);
               background: rgb(47, 130, 255);
               color: white;
-              font-weight: normal;
-              "
-              class="head"
-              data-index="{{ header.index(head) }}"
-              >{{head}}</th>
-                {% if head not in ["Phase Name" , "Duration", "Group Name", "Group Qty"] %}
-                  <th style=" border: 1px solid rgb(83, 83, 83);  background: rgb(47, 130, 255);  color: white;  font-weight: normal;">Recurring Discount - {{ loop.index-4 }}</th>
-                {% endif %} 
-              {% endif %} 
-            {% endfor %}
-          </tr>
-        
-          
-          {% for group,gVal in pVal.items() %}
-            <tr>
-                {% if loop.index0 == 0 %}
-                    <td style="border: 1px solid rgb(83, 83, 83)">{{ phase.replace("_", ' ') }}</td>
-                    <td class="text-center" style="border: 1px solid rgb(83, 83, 83)">{{ Tenure[phase] }}</td>
-                {% else %}
-                    <td style="border: 1px solid rgb(83, 83, 83)"></td>
-                    <td class="text-center" style="border: 1px solid rgb(83, 83, 83)"></td>
-                {% endif %}
-                <td style="border: 1px solid rgb(83, 83, 83)">{{ group.replace(" VM", '') }}</td>
-                {% if " VM" in group %}
-                    <td style="border: 1px solid rgb(83, 83, 83)" class="text-center groupQty" data-qty="{{ gVal['qty'] }}">{{ gVal["qty"] }}</td>
-                {% else %}
-                    <td style="border: 1px solid rgb(83, 83, 83)" class="text-center">{{ "1" }}</td>
-                {% endif %}
-                {% for head in header %}
-                    {% if head in ["Phase Name", "Duration", "Group Name", "Group Qty","Select DB"] %}
+              font-weight: normal;"
+            class="head"
+            data-index="{{ header.index(head) }}">{{head}}</th>
+          {% if head not in ["Phase Name" , "Duration", "Group Name", "GroupQty"] %}
+          <th style=" border: 1px solid rgb(83, 83, 83);
+              background: rgb(47, 130, 255);
+              color: white;
+              font-weight: normal; " >Recurring Discount - {{ loop.index-4 }}</th>
+          {% endif %} {% endif %} {% endfor %}
+        </tr>
 
-                    {% else %}
-                      <td style="border: 1px solid rgb(83, 83, 83)" class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}" id="prod_{{ loop.index0 }}" data-phase="{{ phase }}" data-group="{{ group }}"></td>
-                      <td style="border: 1px solid rgb(83, 83, 83)"></td>
-                    {% endif %}
-                {% endfor %}
-            </tr>
+        {% for group,gVal in pVal.items() %}
+        <tr>
+          {% if loop.index0 == 0 %}
+          <td style="border: 1px solid rgb(83, 83, 83)">{{ phase.replace("_", ' ') }}</td>
+          <td class="text-center" style="border: 1px solid rgb(83, 83, 83)">{{ Tenure[phase] }}</td>
+          {% else %}
+          <td style="border: 1px solid rgb(83, 83, 83)"></td>
+          <td
+            class="text-center"
+            style="border: 1px solid rgb(83, 83, 83)"
+          ></td>
+          {% endif %}
+          <td style="border: 1px solid rgb(83, 83, 83)">{{ group.replace(" VM", '') }}</td>
+          {% if " VM" in group %}
+          <td
+            style="border: 1px solid rgb(83, 83, 83)"
+            class="text-center groupQty"
+            data-qty="{{ gVal['qty'] }}"
+          >{{ gVal["qty"] }}</td>
+          {% else %}
+          <td style="border: 1px solid rgb(83, 83, 83)" class="text-center">{{ "1" }}</td>
+          {% endif %} {% for head in header %} {% if head in ["Phase Name","Duration", "Group Name", "Group Qty","Select DB"] %} {% else %}
+          <td
+            style="border: 1px solid rgb(83, 83, 83)"
+            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
+            id="prod_{{ loop.index0 }}"
+            data-phase="{{ phase }}"
+            data-group="{{ group }}"
+          ></td>
+          <td style="border: 1px solid rgb(83, 83, 83)"></td>
+          {% endif %} {% endfor %}
+        </tr>
         {% endfor %}
-          <tr></tr>
-        </table>
+        <tr></tr>
+      </table>
       {% endfor %}
     </div>
 
@@ -134,21 +134,19 @@
       function wait(delay) {
         return new Promise((resolve, reject) => {
           setTimeout(() => {
-            exportToExcel('tbl', 'test')
+            exportToExcel("tbl", "test");
           }, delay);
         });
       }
-      
 
       $(document).ready(function () {
-
         function exportToExcel(tableId, filename = "") {
           var workbook = new ExcelJS.Workbook();
           var worksheet = workbook.addWorksheet("eNlight Instance");
-  
+
           // Get table element using jQuery
           var $table = $("." + tableId + " table");
-  
+
           // Iterate through rows and cells
           $table.find("tr").each(function (i, row) {
             var $row = $(row);
@@ -156,7 +154,7 @@
             $row.find("th, td").each(function (j, cell) {
               var $cell = $(cell);
               excelRow.getCell(j + 1).value = $cell.html();
-  
+
               var style = {
                 border: {
                   top: { style: "thin", color: { argb: "ff000000" } },
@@ -165,7 +163,7 @@
                   right: { style: "thin", color: { argb: "ff000000" } },
                 },
               };
-  
+
               if ($cell.is("th")) {
                 style.fill = {
                   type: "pattern",
@@ -179,18 +177,18 @@
               excelRow.getCell(j + 1).style = style;
             });
           });
-  
+
           // Save the workbook
           saveWorkbook(workbook, filename);
         }
-  
+
         function saveWorkbook(workbook, filename) {
           workbook.xlsx.writeBuffer().then(function (data) {
             var blob = new Blob([data], {
               type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             });
             var url = URL.createObjectURL(blob);
-  
+
             var a = document.createElement("a");
             a.href = url;
             a.download = filename || "excel_data.xlsx";
@@ -200,7 +198,7 @@
           });
         }
         if ($(".tbl").html() != "") {
-          wait(5000)
+          exportToExcel("tbl", "test");
           location.href = "/"
         }
       });
@@ -215,7 +213,6 @@
   }
   .tbl table {
     width: 100%;
-
   }
   .tbl table tr th {
     background-color: rgb(47, 130, 255);
