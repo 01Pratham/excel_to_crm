@@ -75,7 +75,10 @@
           >{{ gVal["qty"] }}</td>
           {% else %}
           <td style="border: 1px solid rgb(83, 83, 83)" class="text-center">{{ "1" }}</td>
-          {% endif %} {% for head in header %} {% if head in ["Phase Name","Duration", "Group Name", "Group Qty","Select DB"] %} {% else %}
+          {% endif %} 
+          {% for head in header %} 
+          {% if head in ["Phase Name","Duration", "Group Name", "Group Qty","Select DB"] %} 
+          {% else %}
           <td
             style="border: 1px solid rgb(83, 83, 83)"
             class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
@@ -83,8 +86,14 @@
             data-phase="{{ phase }}"
             data-group="{{ group }}"
           ></td>
-          <td style="border: 1px solid rgb(83, 83, 83)"></td>
-          {% endif %} {% endfor %}
+          <td style="border: 1px solid rgb(83, 83, 83)"
+            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
+            id="prod_{{ loop.index0 }}"
+            data-phase="{{ phase }}"
+            data-group="{{ group }}"
+          ></td>
+          {% endif %} 
+          {% endfor %}
         </tr>
         {% endfor %}
         <tr></tr>
