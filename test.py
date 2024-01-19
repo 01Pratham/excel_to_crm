@@ -1,6 +1,5 @@
 import controller.get_product_info as prod
 import controller.get_all_price_list as Plist
-
 import pandas as pd
 
 # prod.get_product_info()
@@ -38,4 +37,3 @@ for index, row in df.iterrows():
 l = list(zip(core_product_id, core_product_name, skucode, price, is_active, price_list))
         
         
-print(l)
