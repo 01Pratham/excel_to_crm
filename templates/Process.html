@@ -46,7 +46,7 @@
               font-weight: normal;"
             class="head"
             data-index="{{ header.index(head) }}">{{head}}</th>
-          {% if head not in ["Phase Name" , "Duration", "Group Name", "GroupQty"] %}
+          {% if head not in ["Phase Name" , "Duration", "Group Name", "GroupQty"] and loop.index-4 != 0%}
           <th style=" border: 1px solid rgb(83, 83, 83);
               background: rgb(47, 130, 255);
               color: white;
@@ -81,13 +81,13 @@
           {% else %}
           <td
             style="border: 1px solid rgb(83, 83, 83)"
-            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
+            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }} Quantity"
             id="prod_{{ loop.index0 }}"
             data-phase="{{ phase }}"
             data-group="{{ group }}"
           ></td>
           <td style="border: 1px solid rgb(83, 83, 83)"
-            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }}"
+            class="text-right {{ group.replace(' ', '') }} {{ phase.replace(' ', '') }} Discount"
             id="prod_{{ loop.index0 }}"
             data-phase="{{ phase }}"
             data-group="{{ group }}"
@@ -112,13 +112,23 @@
               {% for prod, iVal in gVal.items() %}
                 {% if prod in header %}
                   $(".{{ phase.replace(' ', '') }}").each(function () {
-                      if ($(this).hasClass("{{ group.replace(' ', '') }}")) {
+                      if ($(this).hasClass("{{ group.replace(' ', '') }}") && $(this).hasClass("Quantity") ) {
                           if ($(this).prop("id") == "prod_{{ header.index(prod) }}") {
                             var val = parseInt({{ iVal['product_qty'] }});
                             if (val == 0){
                               $(this).html('');
                             }else{
                               $(this).html(val);
+                            }
+                          }
+                      }
+                      if ($(this).hasClass("{{ group.replace(' ', '') }}") && $(this).hasClass("Discount") ) {
+                          if ($(this).prop("id") == "prod_{{ header.index(prod) }}") {
+                            var val = parseFloat({{ iVal['discount'] }});
+                            if (val == 0){
+                              $(this).html('');
+                            }else{
+                              $(this).html(val.toFixed(2));
                             }
                           }
                       }
@@ -133,7 +143,7 @@
         $("table").find("tr").each(function(){
           var $this = $(this);
           if($this.find(".groupQty").data("qty") == 0){
-            $this.remove();
+            $this.remove(); 
           }
         })
       })

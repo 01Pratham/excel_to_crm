@@ -11,17 +11,18 @@ def process():
         if uploaded_file:
             file_path = os.path.join("uploads", "temp_uploaded_file.xlsx")
             uploaded_file.save(file_path)
-            try : 
-                data_processor = DataProcessor(file_path)
-                data = data_processor.merged_dicts()
-                tbl_header = data_processor.tblHeaders()
-                phase_list = data_processor.getPhases()
-                phase_tenure = data_processor.phaseTenure()
-                # return render_template("Process.html", data=data, header=tbl_header, Tenure=phase_tenure)
-                # return render_template("test.html", data=data, header=tbl_header, Tenure=phase_tenure)
-                return (data)
-            except Exception as e:
-                return render_template("IncorrectFile.html")
+            # try : 
+            data_processor = DataProcessor(file_path)
+            data = data_processor.merged_dicts()
+            #     tbl_header = data_processor.tblHeaders()
+            #     phase_list = data_processor.getPhases()
+            #     phase_tenure = data_processor.phaseTenure()
+            #     # return render_template("Process.html", data=data, header=tbl_header, Tenure=phase_tenure)
+            #     # return render_template("test.html", data=data, header=tbl_header, Tenure=phase_tenure)
+            #     return (data)
+            # except Exception as e:
+            #     return render_template("IncorrectFile.html")
+            return data
         else:
             return render_template("badReq.html", message="No file uploaded.")
     else:

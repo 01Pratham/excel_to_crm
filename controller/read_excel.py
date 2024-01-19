@@ -48,7 +48,7 @@ class ExcelProcessor:
                     if not pd.isna(row["Product Name"]):
                         result[phase +"_"+sheet][row["group"]][row["Product Name"]] = {
                             "product_qty" : row[phase],
-                            "discount" : row["Discount Percent"]  
+                            "discount" : row["Discount Percent"] if not pd.isna(row["Discount Percent"]) else 0
                         }
                 
         return result
@@ -91,32 +91,31 @@ class ExcelProcessor:
                                         let[l].append(val + " VM")
                                 group.append(val)
                                 result[phase][row["VM Name"] + " VM"] = {
-                                    "vCPU Elastic Cloud - Compute":{
+                                    "vCPU static Cloud - Compute":{
                                         "product_qty" : row["Core " + phase],
-                                        "discount" : "CCVCVS0000000000"
+                                        "discount" : self.read_product_master("vCPU Static Cloud- Compute")
                                     },
-                                    "vRAM Elastic Cloud- Compute":{
+                                    "vRAM static Cloud- Compute":{
                                         "product_qty" : row["RAM " + phase],
-                                        "discount" : "CCVRAT0000000000"
+                                        "discount" : self.read_product_master("vRAM Static- Compute")
                                     },
-                                    "Block Storage - 1 IOPS / GB    ":{
+                                    "Block Storage - 1 IOPS / GB":{
                                         "product_qty" : row["DISK " + phase],
-                                        "discount" : "STBT1P0000000000"
+                                        "discount" : self.read_product_master("Block Storage - 1 IOPS / GB")
                                     },
                                     row["OS"]:{
                                         "product_qty" : row["OS "+ phase],
-                                        "discount" : "STBT1P0000000000"
+                                        "discount" : self.read_product_master(row["OS"])
                                     },
                                     "qty" : row["VM " + phase]
-                                
                                 }
                                 
                                 if row["DB"] != "Select DB" : 
                                     result[phase][row["VM Name"] + " VM"][row["DB"]]= {
                                         "product_qty" : row["DB "+ phase],
-                                        "discount" : "STBT1P0000000000"
+                                        "discount" : self.read_product_master(row["DB"])
                                     }
-        newRes = {}
+        newRes = {} 
         newLet = {}
         for _B, _P in let.items():
             newLet[_B] = list(set(_P))
@@ -164,3 +163,15 @@ class ExcelProcessor:
                 for index , row in dfPhases.iterrows():
                     phases.append(row['Phases'])
         return phases
+    
+    
+    def read_product_master(self, prod):
+        for sheet in self.SheetNames:
+            if sheet == "product_mater":
+                productMasterDf = pd.read_excel(self.file_path, sheet)
+                for index , row in productMasterDf.iterrows():
+                    print (row['VM Related Products'])
+                    return row['VM Related Products']
+     
+     
+     
