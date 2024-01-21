@@ -1,6 +1,7 @@
 import pandas as pd
-import openpyxl as xl
+# import openpyxl as xl
 import json
+
 
 class ExcelProcessor:
     def __init__(self, file_path):
@@ -15,9 +16,10 @@ class ExcelProcessor:
             if row["Phases"] == phase_name:
                 return int(row['Tenure'])
 
-    def getFromCommanSheets(self):
+    def getFromCommanSheets(self, type = ""):
         phases = []
         result = {}
+        PhaseData = {}
         for sheet in self.SheetNames:
             if sheet == "VM Working" or sheet == "product_mater":
                 continue 
@@ -25,10 +27,12 @@ class ExcelProcessor:
                 dfPhases = pd.read_excel(self.file_path, sheet)
                 for index , row in dfPhases.iterrows():
                     phases.append(row['Phases'])
+                    
                     for sheet2 in self.SheetNames:
                         if sheet2 == "PhasesDetails" or sheet2 == "VM Working" or sheet2 == "product_mater":
                             continue
                         result[row['Phases'] +"_"+ sheet2 ] = {}
+                        PhaseData[row['Phases'] +"_"+ sheet2 ] = []
             else:
                 df = pd.read_excel(self.file_path, sheet)
                 for index , row in df.iterrows():
@@ -46,19 +50,25 @@ class ExcelProcessor:
             for index , row in df.iterrows():
                 for phase in phases:
                     if not pd.isna(row["Product Name"]):
+                        PhaseData[phase +"_"+sheet].append(row["group"])
                         result[phase +"_"+sheet][row["group"]][row["Product Name"]] = {
                             "product_qty" : row[phase],
                             "discount" : row["Discount Percent"] if not pd.isna(row["Discount Percent"]) else 0
                         }
                 
-        return result
+        if type == "":
+            return result
+        else:
+            return PhaseData
 
 
-    def getFromVmWorkingSheeet(self):
+    def getFromVmWorkingSheeet(self , type = ""):
         result = {}
         phases = []
         group = []
         let= {}
+
+        PhaseData = {}
 
         for sheet in self.SheetNames:
             if sheet == "PhasesDetails":
@@ -80,6 +90,7 @@ class ExcelProcessor:
                 for index , row in dfPhases.iterrows():
                     phases.append(row['Phases'])
                     result[row['Phases']] = {}
+                    
             if sheet == "VM Working":
                 df = pd.read_excel(self.file_path, sheet)
                 for index , row in df.iterrows():
@@ -124,14 +135,18 @@ class ExcelProcessor:
                 for _G , _v in _V.items():
                     if _G in newLet[_B]:
                         newRes[_K +"_" + _B] = {} 
+                        PhaseData[_K +"_" + _B] = []
         for _K, _V in result.items():
             for _B,_P in newLet.items():
                 for _G , _v in _V.items():
                     if _G in newLet[_B]:
                         newRes[_K +"_" + _B][_G] = _v
+                        PhaseData[_K +"_" + _B].append(_G)
 
-
-        return newRes
+        if type == '':
+            return newRes
+        else:
+            return PhaseData
 
     def merge_dicts(self,dict1, dict2):
         merged = dict1.copy()
@@ -143,7 +158,7 @@ class ExcelProcessor:
         return merged
 
 
-    def merged_dicts(self):
+    def merged_dicts(self ):
         dict1 = self.getFromVmWorkingSheeet()
         dict2 = self.getFromCommanSheets()
 
@@ -164,14 +179,22 @@ class ExcelProcessor:
                     phases.append(row['Phases'])
         return phases
     
-    
     def read_product_master(self, prod):
         for sheet in self.SheetNames:
             if sheet == "product_mater":
                 productMasterDf = pd.read_excel(self.file_path, sheet)
                 for index , row in productMasterDf.iterrows():
-                    print (row['VM Related Products'])
-                    return row['VM Related Products']
+                    if prod == row['VM Related Products'] :
+                        return row['Discount Percent']
+                    else : 
+                        return 0
      
-     
-     
+    def GetPhasesGroups(self):
+        dict1 = self.getFromVmWorkingSheeet("GetPhasesGroups")
+        dict2 = self.getFromCommanSheets("GetPhasesGroups")
+        data = {} 
+        for key , groups in dict1.items():
+            dict2[key] = list(set(dict2[key]))
+            data[key] = dict1.get(key, []) + dict2.get(key, [])
+        # # data = self.merged_dicts("GetPhasesGroups")
+        return data
