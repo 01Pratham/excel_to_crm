@@ -1,12 +1,13 @@
 from controller.tblDetails import DataProcessor
 import xlsxwriter
 import pandas as pd
+import os
 
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl.worksheet._reader")
 
 def exportExcel(file_path) :
-    try: 
+    # try: 
         data_processor = DataProcessor(file_path)
         data = data_processor.merged_dicts()
         tbl_header = data_processor.tblHeaders()
@@ -67,7 +68,8 @@ def exportExcel(file_path) :
                                 res[phase][Col][GetPhasesGroups[phase].index(group)] = int(product_qty)
                             except KeyError:
                                 res[phase][Col][GetPhasesGroups[phase].index(group)] = ""
-        outputFilePath = os.path().join("static" , "output.xlsx")
+        outputFilePath = os.path.join("static", "output", "output.xlsx")
+
         with pd.ExcelWriter(outputFilePath, engine='xlsxwriter') as writer:
             workbook = writer.book
             worksheet = workbook.add_worksheet('eNlight Instance')
@@ -88,5 +90,5 @@ def exportExcel(file_path) :
                     for col_num in range(len(df.columns)):
                         worksheet.write(row_num, col_num, df.iloc[row_num - 1, col_num], workbook.add_format({'border': 1}))
         return True
-    except Exception as e:
-        return False
+    # except Exception as e:
+    #     return False
