@@ -179,16 +179,19 @@ class ExcelProcessor:
                     phases.append(row['Phases'])
         return phases
     
-    def read_product_master(self, prod):
+    def read_product_master(self, prod, Type = "Discount"):
         for sheet in self.SheetNames:
             if sheet == "product_mater":
                 productMasterDf = pd.read_excel(self.file_path, sheet)
                 for index , row in productMasterDf.iterrows():
-                    if prod == row['VM Related Products'] :
-                        return row['Discount Percent']
-                    else : 
-                        return 0
-     
+                    if Type == "Discount":
+                        if prod == row['VM Related Products'] :
+                            return row['Discount Percent']
+                        else : 
+                            return 0
+                    elif Type == "getProdId":
+                        if prod == row['core_product_name'] :
+                            return row['core_product_id']
     def GetPhasesGroups(self):
         dict1 = self.getFromVmWorkingSheeet("GetPhasesGroups")
         dict2 = self.getFromCommanSheets("GetPhasesGroups")

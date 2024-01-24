@@ -3,6 +3,7 @@ import xlsxwriter
 import pandas as pd
 import os
 
+
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl.worksheet._reader")
 
@@ -46,8 +47,10 @@ def exportExcel(file_path) :
                         else:
                             res[phase][head].append(1)
                 if head not in ["Phase Name","Duration","Group Name","Group Qty"]:
+                    res[phase][str(data_processor.read_product_master(head , "getProdId"))] = getIndexiveList("", 0 , Length)
                     res[phase][head] = getIndexiveList("", 0 , Length)
                     res[phase]["Recurring Discount - " + str(column[phase].index(head))] = getIndexiveList("", 0 , Length)
+
 
         for phase, pVal in data.items():
             Length = len(GetPhasesGroups[phase])
@@ -66,10 +69,12 @@ def exportExcel(file_path) :
                             try:
                                 product_qty = data[phase][group][Col]['product_qty']
                                 res[phase][Col][GetPhasesGroups[phase].index(group)] = int(product_qty)
+                                res[phase][str(data_processor.read_product_master(Col , "getProdId"))][GetPhasesGroups[phase].index(group)] = int(product_qty)
                             except KeyError:
                                 res[phase][Col][GetPhasesGroups[phase].index(group)] = ""
+                                res[phase][str(data_processor.read_product_master(head , "getProdId"))][GetPhasesGroups[phase].index(group)] = ""
+                                
         outputFilePath = os.path.join("static", "output", "output.xlsx")
-
         with pd.ExcelWriter(outputFilePath, engine='xlsxwriter') as writer:
             workbook = writer.book
             worksheet = workbook.add_worksheet('eNlight Instance')

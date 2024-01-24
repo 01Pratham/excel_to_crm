@@ -14,6 +14,7 @@
     />
     <script src="{{ url_for('static' , filename = 'js/jquery-3.7.1.js') }}"></script>
     <script src="{{ url_for('static' , filename = 'js/main.js') }}"></script>
+    <link rel="shortcut icon" href='{{ url_for("static" ,filename = "img/logo.png") }}' type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- <script src="{{ url_for('static' , filename = 'js/jquery.table2excel.js') }}"></script> -->
@@ -51,7 +52,16 @@
     font-weight: normal;
   }
 
-  $(document).ready(function(){
-
-  })
 </style>
+
+<script>
+  $(document).ready(function(){
+    setTimeout(function(){
+      window.location.href = "{{ url_for('static' , filename = 'output/output.xlsx') }}";
+    },3000)
+    
+    setTimeout(function(){
+      window.location.href = "/rem";
+    },5000)
+  })
+</script>

@@ -5,7 +5,7 @@ import controller.exportExcel as e
 
 # prod.get_product_info()
 
-file = "static/Temp2.xlsx"
+file = "controller/template.xlsx"
 # def get_sku_from_excel(file = "static/template.xlsx"):
 
 print(e.exportExcel(file))

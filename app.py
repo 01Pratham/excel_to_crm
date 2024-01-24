@@ -25,9 +25,11 @@ def process():
 def main():
     return render_template("index.html")
 
-@app.route("/test_api",  methods=['POST'])
-def api():
-    return "hi"
+@app.route("/rem",  methods=['GET'])
+def rem():
+    file = os.path.join("static", "output", "output.xlsx")
+    os.remove(file)
+    return "<script> window.location.href = '/' </script>"
 
 if __name__ == '__main__':
     app.run(debug=True)

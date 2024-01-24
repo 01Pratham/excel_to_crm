@@ -16,3 +16,6 @@ def price_list(price_list_name):
     
     
 # price_list("General Price List")
+
+# def getProdID(product):
+#     productList = price_list('General Price List')['products']  # Get the list
